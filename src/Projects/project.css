@@ -1,0 +1,18 @@
+.project-container{
+    margin-left: 8vmax;
+margin-right: 8vmax;
+align-items: center;
+}
+.App-project {
+    min-height: 90vh;
+    font-weight: 700;
+    z-index: 10;
+
+}
+.project-image{
+    z-index: 10;
+  
+}
+.card-section{
+    border-radius: 25px;
+}

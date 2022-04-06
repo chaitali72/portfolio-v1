@@ -1,0 +1,52 @@
+
+.hero-03 .personal-image img {
+    z-index: 9;
+    border-radius: 50%;
+    border-style: none;
+    vertical-align: middle;
+   object-fit: cover;
+    width: 50vmin;
+  height: 50vmin;
+  object-fit: cover;
+  object-position: center;
+  margin: 7vmin;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 5px 5px rgba(255, 247, 247, 0.5);
+ 
+}
+.header-container{
+    /* border: 1px solid black; */
+    margin-top: 6rem!important;
+    display: flex;
+    margin-top: 8vmax;
+    margin-left: 8vmax;
+    margin-right: 8vmax;
+    
+}
+
+.dark-color{
+
+    color:var(--textdark);
+}
+
+.text-dark {
+    color: #343a40!important;
+}
+.text-capitalize {
+    text-transform: capitalize!important;
+}
+.base-color{
+    color: var(--headingcolor);
+}
+.pill-button {
+    border-radius: 1rem;
+    border: none;
+    padding: 10px 30px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    font-size: 1.5em;
+    background: rgba(131, 18, 129, 0.3);
+}

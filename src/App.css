@@ -1,0 +1,39 @@
+:root{
+  --headingcolor: #D10068;
+  --textcolor: #c179c0 ;
+  --headingfont: 'Poppins', sans-serif;
+  --textfont: 'Teko', sans-serif;
+  --backgroundcolor: #fefbe9;
+--whitebackground:#fff;
+--sectioncolor: #b0e0e6;
+--textdark:black;
+  
+
+} 
+.App {
+  text-align: center;
+}
+
+.text-white{
+  color:white;
+}
+.bg-base-color{
+  background-color: #c179c0 !important;
+}
+span{
+font-size: 2rem;
+}
+
+.theme-button{
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+    top: 85px; 
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem 0 0 1rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.d-inline-block {
+  display: inline-block!important;
+}
